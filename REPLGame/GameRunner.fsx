@@ -24,5 +24,5 @@ let RunInBackground() =
 
 let game, thread = RunInBackground()
 
-do game.Content.RootDirectory <- __SOURCE_DIRECTORY__ + @"bin\Debug\Content"
+do game.Content.RootDirectory <- __SOURCE_DIRECTORY__ + @"\bin\Debug\Content"
 let Create = CreateActor game.Content
