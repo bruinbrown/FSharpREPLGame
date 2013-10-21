@@ -55,9 +55,13 @@
   <ItemGroup>
     <Compile Include="REPLActor.fs" />
     <Compile Include="REPLGame.fs" />
+    <None Include="GameRunner.fsx" />
     <None Include="SDL.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <Content Include="Content\player.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

@@ -4,7 +4,7 @@ open Microsoft.Xna.Framework
 open Microsoft.Xna.Framework.Graphics
 open REPLActor
 
-type REPLGame () as this = 
+type Game1 () as this = 
     inherit Game ()
 
     do this.Content.RootDirectory <- "Content"
